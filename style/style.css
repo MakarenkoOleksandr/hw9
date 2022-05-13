@@ -165,6 +165,7 @@ a {
 .aside-bottom__list-container {
   display: flex;
   gap: 45px;
+  
   margin-bottom: 100px;
 }
 /* .aside-bottom__list {
