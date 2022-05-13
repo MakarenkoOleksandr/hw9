@@ -7,25 +7,21 @@
 }
 html {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 body {
+  min-width: 1920px;
 }
 a {
   text-decoration: none;
-}
-.flexbox {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 /* HEADER */
 
 .header-container {
   max-width: 1100px;
-  margin: 0 398px;
+  margin: 0 275px;
 }
 .header {
   background-color: #eeeff1;
@@ -40,8 +36,8 @@ a {
   display: flex;
   gap: 60px;
 }
-.header-navbar__list__item {
-}
+/* .header-navbar__list__item {
+} */
 .header-navbar__link {
   letter-spacing: 0.1em;
   color: #000000;
@@ -56,9 +52,10 @@ a {
 .header-content__title {
   margin-top: 144px;
   margin-bottom: 40px;
+  font-weight: 500;
   font-size: 48px;
   line-height: 79px;
-  color: #000000; 
+  color: #000000;
 }
 .header-content__description {
   line-height: 26px;
@@ -66,7 +63,7 @@ a {
   margin-bottom: 65px;
 }
 .header-content__actions {
-  margin-top: 65px;
+  margin-bottom: 141px;
 }
 .header-content__link {
   height: 65px;
@@ -81,11 +78,48 @@ a {
   color: #ffffff;
 }
 
-.main {
-  background-color: red;
-  min-height: 100px;
-  order: 1;
+/* MAIN */
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
+.main {
+  background-color: #eeeff1;
+  min-height: 1004px;
+  order: 1;
+  padding-top: 100px;
+}
+.main-container {
+  max-width: 1100px;
+  margin: 0 285px;
+}
+/* .main-content {
+} */
+.main-content__title {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.main-content__description {
+  max-width: 540px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 57px;
+  margin-left: 290px;
+}
+.main-content__media {
+  min-height: 600px;
+  min-width: 1100px;
+  margin-bottom: 100px;
+}
+/* .main-content__media__video {
+} */
 
 /* ASIDE-TOP */
 
@@ -94,15 +128,15 @@ a {
   background-color: #ffffff;
   padding-top: 112px;
 }
-.aside-top-container{
+.aside-top-container {
   max-width: 1100px;
-  margin: 0 500px;
+  margin: 0 575px;
 }
-.aside-top__content {
-  width: 540px;
+.aside-top-content {
+  max-width: 540px;
 }
 .aside-top__title {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
@@ -114,6 +148,7 @@ a {
   line-height: 26px;
   text-align: center;
   color: #727272;
+  margin-bottom: 100px;
 }
 
 /* ASIDE-BOTTOM */
@@ -125,40 +160,64 @@ a {
 }
 .aside-bottom-container {
   max-width: 1100px;
-  margin: 0 410px;
+  margin: 0 285px;
 }
 .aside-bottom__list-container {
   display: flex;
-  gap: 45px;
+  gap: 43px;
 }
-.aside-bottom__list {
-}
+/* .aside-bottom__list {
+} */
 .aside-bottom__item {
   min-height: 50px;
   min-width: 141px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
-  .aside-bottom__item__image {
-    float: left;
-  }
-  .aside-bottom__item__description-1 {
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    color: #ffffff;
-    float: left;
-    margin-left: 18px;
-    padding-top: 3px;
-  }
-  .aside-bottom__item__description-2 {
-    line-height: 26px;
-    color: #ffffff;
-    float: left;
-    margin-left: 18px;
-    padding-bottom: 3px;
-  }
+.aside-bottom__item__image {
+  float: left;
+}
+.aside-bottom__item__description-1 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  float: left;
+  margin-left: 18px;
+  padding-top: 3px;
+}
+.aside-bottom__item__description-2 {
+  line-height: 26px;
+  color: #ffffff;
+  float: left;
+  margin-left: 18px;
+  padding-bottom: 3px;
+}
+
+/* FOOTER */
+
 .footer {
-  min-height: 100px;
-  background-color: magenta;
+  min-height: 151px;
+  background-color: #34547a;
   order: 2;
+  padding-top: 50px;
+}
+.footer-container {
+  max-width: 1100px;
+  margin: 0 285px;
+}
+/* .footer__content {
+} */
+.footer__content__descrition {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer_content__rights {
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 50px;
 }
