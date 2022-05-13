@@ -9,9 +9,7 @@ html {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
-body {
-  min-width: 1920px;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -21,7 +19,7 @@ a {
 
 .header-container {
   max-width: 1100px;
-  margin: 0 275px;
+  margin: 0 auto;
 }
 .header {
   background-color: #eeeff1;
@@ -30,6 +28,7 @@ a {
 }
 .header-navbar {
   margin-bottom: 40px;
+  margin-left: 275px;
 }
 .header-navbar__list {
   list-style: none;
@@ -48,6 +47,7 @@ a {
 }
 .header-content {
   width: 540px;
+  margin-left: 275px;
 }
 .header-content__title {
   margin-top: 144px;
@@ -93,10 +93,11 @@ a {
 }
 .main-container {
   max-width: 1100px;
-  margin: 0 285px;
+  margin: 0 auto;
 }
-/* .main-content {
-} */
+.main-content {
+margin-left: 345px;
+}
 .main-content__title {
   margin-bottom: 50px;
   font-weight: 500;
@@ -111,14 +112,12 @@ a {
   text-align: center;
   color: #727272;
   margin-bottom: 57px;
-  margin-left: 290px;
+  /* margin-left: 290px; */
 }
 .main-content__media {
-  min-height: 600px;
-  min-width: 1100px;
   margin-bottom: 100px;
 }
-/* .main-content__media__video {
+/* .main-content__video {
 } */
 
 /* ASIDE-TOP */
@@ -130,23 +129,25 @@ a {
 }
 .aside-top-container {
   max-width: 1100px;
-  margin: 0 575px;
+  margin: 0 auto;
+  text-align: center;
 }
 .aside-top-content {
   max-width: 540px;
+  margin-left: 600px;
 }
-.aside-top__title {
+.aside-top-content__title {
   margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
-  text-align: center;
+  /* text-align: center; */
   color: #000000;
 }
-.aside-top__description {
+.aside-top-content__description {
   vertical-align: top;
   line-height: 26px;
-  text-align: center;
+  /* text-align: center; */
   color: #727272;
   margin-bottom: 100px;
 }
@@ -160,11 +161,12 @@ a {
 }
 .aside-bottom-container {
   max-width: 1100px;
-  margin: 0 285px;
+  margin: 0 auto;
 }
 .aside-bottom__list-container {
   display: flex;
-  gap: 43px;
+  gap: 45px;
+  margin-left: 285px;
 }
 /* .aside-bottom__list {
 } */
