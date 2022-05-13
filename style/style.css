@@ -125,19 +125,17 @@ a {
 }
 .aside-bottom-container {
   max-width: 1100px;
-  margin-left: 405px;
+  margin: 0 410px;
 }
 .aside-bottom__list-container {
   display: flex;
   gap: 45px;
-  align-items: center;
-  justify-content: center;
 }
 .aside-bottom__list {
 }
 .aside-bottom__item {
-  height: 50px;
-  width: 141px;
+  min-height: 50px;
+  min-width: 141px;
   margin: 0 auto;
 }
   .aside-bottom__item__image {
