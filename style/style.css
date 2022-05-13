@@ -11,6 +11,9 @@ html {
   font-weight: 400;
   overflow-x: hidden;
 }
+body {
+  min-width: 1920px;
+}
 a {
   text-decoration: none;
 }
@@ -28,7 +31,6 @@ a {
 }
 .header-navbar {
   margin-bottom: 40px;
-  margin-left: 135px;
 }
 .header-navbar__list {
   list-style: none;
@@ -47,7 +49,6 @@ a {
 }
 .header-content {
   max-width: 540px;
-  margin-left: 135px;
 }
 .header-content__title {
   margin-top: 144px;
@@ -97,7 +98,7 @@ a {
 }
 .main-content {
   max-width: 540px;
-  margin-left: 425px;
+  margin-left: 280px;
 }
 .main-content__title {
   margin-bottom: 50px;
@@ -116,9 +117,8 @@ a {
 .main-content__media {
   margin-bottom: 100px;
 }
-.main-content__video {
-margin-left: 135px;
-}
+/* .main-content__video {
+} */
 
 /* ASIDE-TOP */
 
@@ -133,7 +133,7 @@ margin-left: 135px;
 }
 .aside-top-content {
   max-width: 540px;
-  margin-left: 425px;
+  margin-left: 280px;
 }
 .aside-top-content__title {
   margin-bottom: 50px;
@@ -165,7 +165,7 @@ margin-left: 135px;
 .aside-bottom__list-container {
   display: flex;
   gap: 45px;
-  margin-left: 135px;
+  margin-bottom: 100px;
 }
 /* .aside-bottom__list {
 } */
@@ -173,7 +173,6 @@ margin-left: 135px;
   min-height: 50px;
   min-width: 141px;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 .aside-bottom__item__image {
   float: left;
@@ -207,9 +206,8 @@ margin-left: 135px;
   max-width: 1100px;
   margin: 0 auto;
 }
-.footer__content {
-  margin-left: 135px;
-}
+/* .footer__content {
+} */
 .footer__content__descrition {
   font-weight: 500;
   font-size: 21px;
