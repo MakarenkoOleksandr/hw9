@@ -14,14 +14,14 @@ html {
 a {
   text-decoration: none;
 }
-
-/* HEADER */
-
-.header-container {
-  max-width: 1100px;
+.container {
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/* HEADER */
+
 .header {
   background-color: #eeeff1;
   padding: 80px 0 141px;
@@ -32,7 +32,7 @@ a {
 .header-navbar__list {
   list-style: none;
   display: flex;
-  gap: 60px;
+  column-gap: 42px;
 }
 .header-navbar__link {
   letter-spacing: 0.1em;
@@ -76,11 +76,10 @@ a {
 /* SECTION-ABOUT */
 
 .about {
-  min-height: 360px;
   background-color: #ffffff;
   padding: 112px 0 92px;
 }
-.about-container {
+.about__container {
   max-width: 580px;
   margin: 0 auto;
   padding: 0 20px;
@@ -94,55 +93,18 @@ a {
   color: #000000;
 }
 .about__description {
-  vertical-align: top;
   line-height: 26px;
   text-align: center;
   color: #727272;
 }
-
-.main {
-}
-.main-container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-.main-content {
-  max-width: 540px;
-  margin-left: 280px;
-}
-.main-content__title {
-  margin-bottom: 50px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-  color: #000000;
-}
-.main-content__description {
-  line-height: 26px;
-  text-align: center;
-  color: #727272;
-  margin-bottom: 57px;
-}
-.main-content__media {
-  margin-bottom: 100px;
-}
-/* .main-content__video {
-} */
 
 /* EXPERIENCE */
 
 .experience {
-  min-height: 250px;
   background-color: #34547a;
-  padding-top: 100px;
+  padding: 100px 0 95px;
 }
-.experience-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-.experience__list-container {
+.experience__list__container {
   display: flex;
   gap: 45px;  
 }
@@ -160,7 +122,7 @@ a {
   line-height: 25px;
   color: #ffffff;
   float: left;
-  margin-left: 18px;
+  margin-left: 20px;
   padding-top: 3px;
 }
 .experience__item__name {
@@ -171,29 +133,51 @@ a {
   padding-bottom: 3px;
 }
 
+.job {
+  background-color: #eeeff1;
+  padding: 100px 0 95px;
+}
+.job__container {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.job__title {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.job__description {
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.job__video {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
 /* FOOTER */
 
 .footer {
   min-height: 151px;
   background-color: #34547a;
-  padding-top: 50px;
+  padding: 50px 0 40px;
 }
-.footer-container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-/* .footer__content {
-} */
-.footer__content__descrition {
+.footer__name {
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.footer_content__rights {
+.footer__copyright {
   font-size: 13px;
   line-height: 21px;
   color: #ffffff;
-  margin-bottom: 50px;
 }
