@@ -98,7 +98,7 @@ a {
   color: #727272;
 }
 
-/* EXPERIENCE */
+/* SECTION-EXPERIENCE */
 
 .experience {
   background-color: #34547a;
@@ -132,6 +132,8 @@ a {
   margin-left: 18px;
   padding-bottom: 3px;
 }
+
+/* SECTION-JOB */
 
 .job {
   background-color: #eeeff1;
